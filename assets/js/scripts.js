@@ -56,3 +56,16 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   });
 });
+
+/*
+// JavaScript to dynamically adjust section padding based on header height
+document.addEventListener('DOMContentLoaded', function() {
+  const headerHeight = document.querySelector('header').offsetHeight;
+  const sections = document.querySelectorAll('section');
+  console.log(headerHeight);
+  
+  sections.forEach(section => {
+    section.style.paddingTop = `${headerHeight}px`; // Add extra spacing if needed
+  });
+});
+*/
